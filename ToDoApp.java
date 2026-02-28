@@ -13,6 +13,7 @@ class ToDoApp {
 
         do {
             System.out.println("\n===== TO DO LIST MENU =====");
+	    System.out.println("Welcome To My ToDo App");
             System.out.println("1. Add Task");
             System.out.println("2. View Tasks");
             System.out.println("3. Mark Task as Completed");
