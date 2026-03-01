@@ -53,7 +53,7 @@ class ToDoApp {
                         System.out.println("Invalid Number");
                     }
                     break;
-
+// Minor update by amolk-hub
                 case 4:
                     System.out.print("Enter task number: ");
                     int del = sc.nextInt();
