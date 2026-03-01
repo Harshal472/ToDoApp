@@ -74,7 +74,7 @@ class ToDoApp {
                     System.out.println("Wrong Choice");
             }
 
-        } while (choice != 5);
+        } while (choice != 5);// Updated menu formatting by amolk-hub
 
         sc.close();
     }
