@@ -29,7 +29,6 @@ class TodoCheckbox {
         f.add(top, BorderLayout.NORTH);
         f.add(scroll, BorderLayout.CENTER);
 
-        // ADD TASK
         addBtn.addActionListener(e -> {
             String task = taskField.getText();
 
@@ -51,7 +50,6 @@ class TodoCheckbox {
             }
         });
 
-        // DELETE SELECTED TASK
         deleteBtn.addActionListener(e -> {
             Component[] comps = taskPanel.getComponents();
 
