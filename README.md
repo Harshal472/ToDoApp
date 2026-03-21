@@ -1,9 +1,9 @@
 # Java To-Do App
 
-## Console Version
+## Console 
 - Add, delete tasks
 
-## GUI Version
+## GUI 
 - Java Swing
 - Checkbox based tasks
 
