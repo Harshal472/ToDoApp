@@ -35,7 +35,6 @@ class TodoCheckbox {
             if (!task.isEmpty()) {
                 JCheckBox cb = new JCheckBox(task + " - Pending");
 
-                // WHEN CHECKED → Completed
                 cb.addActionListener(ev -> {
                     if (cb.isSelected()) {
                         cb.setText(task + " - Completed");
